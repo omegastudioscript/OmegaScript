@@ -32,7 +32,7 @@ local Section = Tab:NewSection("Other Thinks")
 
 
 Section:NewButton("Fly and Chat Spoofer!", "Fly and prank script", function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/Nicuse/RobloxScripts/main/BypassedFly.lua"))() 
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/omegastudioscript/OmegaScript/main/ByOmegaScripts"))() 
 
     Fly(true)
 end)
