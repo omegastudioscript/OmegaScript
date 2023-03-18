@@ -31,7 +31,7 @@ local Tab = Window:NewTab("Other")
 local Section = Tab:NewSection("Other Thinks")
 
 
-Section:NewButton("Fly and Chat Spoofer!", "Fly and prank script", function()
+Section:NewButton("Fly = x", "press x to fly", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/omegastudioscript/OmegaScript/main/ByOmegaScripts"))() 
 
     Fly(true)
