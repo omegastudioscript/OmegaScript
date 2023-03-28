@@ -6,8 +6,8 @@ local Tab = Window:NewTab("Visual")
 local VisualSection = Tab:NewSection("Make Visual Pets (psx)")
 
 
-VisualSection:NewButton("Click here", "You must have 1 or more party dogs", function()
-loadstring(game:HttpGetAsync("https://bloxscripts.fun/scripts/d058399a90.lua", true))()
+Section:NewButton("Visual", "Make a visual titanic!", function()
+    loadstring(game:HttpGetAsync("https://bloxscripts.fun/scripts/82e5f9def6.lua", true))()
 end)
 
 -- DUPE
@@ -15,8 +15,8 @@ local Tab = Window:NewTab("Dupe")
 local Section = Tab:NewSection("Dupe Pets (psx)")
 
 
-Section:NewButton("Dupe", "Dupe Pets (psx)", function()
-loadstring(game:HttpGetAsync("https://bloxscripts.fun/scripts/d058399a90.lua", true))()
+Section:NewButton("Dupe", "Dupe any pets (psx)", function()
+    loadstring(game:HttpGetAsync("https://bloxscripts.fun/scripts/82e5f9def6.lua", true))()
 end)
 
 
